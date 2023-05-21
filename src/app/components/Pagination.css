@@ -8,7 +8,6 @@
 .pagination button {
     width: 40px;
     height: 40px;
-    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     margin: 0 10px;
@@ -17,12 +16,13 @@
     transition: all 0.3s ease;
     background: transparent;
     color: #eee;
-    border-color: #eee;
+    border: 1p solid black  ;
 }
 
 .pagination button.active {
     font-weight: 900;
-    border-color: #101010;
-    background: #ffe400;
-    color: #101010;
+    border: none ;
+    background: blue ;
+
+    color: #000 ; 
 }
